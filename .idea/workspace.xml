@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="270">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -162,6 +162,11 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GiteeProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="wjunc" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="jjfwpt" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/custom.css" root0="FORCE_HIGHLIGHTING" />
@@ -295,9 +300,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,7 +334,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.gitee" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="D:\02-worksoftware\IntelliJ IDEA 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -561,12 +576,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1473931000" />
+    <option name="totallyTimeSpent" value="1474238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.22676727" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.22835584" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.33375958" side_tool="true" weight="0.22359015" />
@@ -586,7 +601,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.11953932" side_tool="true" weight="0.2361111" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30982906" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.41239315" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.41239315" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.54813045" weight="0.45405984" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32905984" />
       <window_info anchor="bottom" id="TypeScript" order="17" show_stripe_button="false" weight="0.32905984" />
@@ -694,6 +709,20 @@
       <set>
         <option value="1" />
       </set>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -1149,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
