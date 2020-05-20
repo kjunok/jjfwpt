@@ -1,0 +1,17 @@
+[
+#foreach($field in ${table.fields})
+  {
+    key: '${field.propertyName}',
+    title: '${field.propertyName}',
+    width: 200,
+    fixed: 'left'
+  },
+#end
+]
+
+
+{
+  #foreach($field in ${table.fields})
+    ${field.propertyName}:'',
+  #end
+}

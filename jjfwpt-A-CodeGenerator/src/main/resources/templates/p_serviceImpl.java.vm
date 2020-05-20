@@ -1,0 +1,92 @@
+package com.want.module.service;
+
+import com.alibaba.druid.util.StringUtils;
+import com.alibaba.dubbo.config.annotation.Service;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.want.common.security.token.util.SessionUtils;
+import com.want.module.dto.ResultDto;
+import com.want.utils.CheckUtils;
+import com.want.utils.CodeConstant;
+import com.want.utils.exception.FieldCheckException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+import com.want.module.api.API${cfg.UpModuleName}Service;
+import com.want.module.dao.${cfg.UpModuleName}InfoDao;
+import com.jjkj.model.${entity};
+
+@Service
+@Component
+public class ${cfg.UpModuleName}ServiceImpl implements API${cfg.UpModuleName}Service {
+    @Autowired
+    private ${cfg.UpModuleName}InfoDao ${cfg.ModuleName}InfoDao;
+
+    @Override
+    public ResultDto<${entity}> find${cfg.UpModuleName}ByCondition(String token,Map condition) {
+        ResultDto<${entity}> resultDto =new ResultDto<>();
+        ${entity} ${cfg.ModuleName}Info=${cfg.ModuleName}InfoDao.find${cfg.UpModuleName}ByCondition(condition);
+        if(null==${cfg.ModuleName}Info){
+            resultDto = resultDto.failure(CodeConstant.ERROR.getCode(), CodeConstant.ERROR.getMessage("信息不存在!"));
+        }else{
+            resultDto.setData(${cfg.ModuleName}Info);
+        }
+        return resultDto;
+    }
+
+    @Override
+    public ResultDto<List<${entity}>> find${cfg.UpModuleName}ListByCondition(String token,Map condition) {
+        ResultDto<List<${entity}>> resultDto =new ResultDto<>();
+        List<${entity}> ${cfg.ModuleName}InfoList=${cfg.ModuleName}InfoDao.find${cfg.UpModuleName}ListByCondition(condition);
+        if(${cfg.ModuleName}InfoList==null){
+            resultDto = resultDto.failure(CodeConstant.ERROR.getCode(), CodeConstant.ERROR.getMessage("信息不存在!"));
+        }else {
+            resultDto.setData(${cfg.ModuleName}InfoList);
+        }
+        return resultDto;
+    }
+
+    @Override
+    public ResultDto<IPage<${entity}>> find${cfg.UpModuleName}PageByCondition(String token,Map condition) {
+        ResultDto<IPage<${entity}>> resultDto =new ResultDto<>();
+        IPage<${entity}> ${cfg.ModuleName}InfoList=${cfg.ModuleName}InfoDao.find${cfg.UpModuleName}PageByCondition(condition);
+        if(${cfg.ModuleName}InfoList==null){
+            resultDto = resultDto.failure(CodeConstant.ERROR.getCode(), CodeConstant.ERROR.getMessage("信息不存在!"));
+        }else {
+            resultDto.setData(${cfg.ModuleName}InfoList);
+        }
+        return resultDto;
+    }
+
+    @Override
+    public ResultDto saveOrUpdate${cfg.UpModuleName}(String token,${entity} ${cfg.ModuleName}Info){
+        ResultDto<${entity}> resultDto =new ResultDto<>();
+        String userId= SessionUtils.getJson(token).getString("id");
+        if(StringUtils.isEmpty(${cfg.ModuleName}Info.getId())){
+            ${cfg.ModuleName}Info.setCreateTime(new Date());
+            ${cfg.ModuleName}Info.setCreateUserId(userId);
+        }else{
+            ${cfg.ModuleName}Info.setUpdateUserId(userId);
+            ${cfg.ModuleName}Info.setUpdateTime(new Date());
+        }
+        if(!${cfg.ModuleName}InfoDao.saveOrUpdate${cfg.UpModuleName}(${cfg.ModuleName}Info)){
+            resultDto = resultDto.failure(CodeConstant.ERROR.getCode(), CodeConstant.ERROR.getMessage("添加或修改失败"));
+        }else {
+            resultDto=ResultDto.ok("添加或修改成功");
+        }
+        return resultDto;
+    }
+
+    @Override
+    public ResultDto del${cfg.UpModuleName}(String token,String[] ids) {
+        ResultDto<${entity}> resultDto =new ResultDto<>();
+        if(${cfg.ModuleName}InfoDao.del${cfg.UpModuleName}(ids)){
+            resultDto = resultDto.failure(CodeConstant.ERROR.getCode(), CodeConstant.ERROR.getMessage("删除失败!"));
+        }else {
+            resultDto=ResultDto.ok("删除成功");
+        }
+        return resultDto;
+    }
+}

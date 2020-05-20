@@ -1,0 +1,21 @@
+DELETE /sys_${cfg.ModuleName}_info/ _mapping
+PUT sys_${cfg.ModuleName}_info
+{
+  "mappings":{
+    "properties": {
+    #foreach($field in ${table.fields})
+      "${field.propertyName}": {
+        "type": "text",
+        "analyzer": "ik_max_word",
+        "search_analyzer": "ik_max_word",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+    #end
+    }
+  }
+}

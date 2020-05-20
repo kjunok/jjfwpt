@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjkj.dao.mapper.TFormInfoMapper">
+<!-- 通用查询映射结果 -->
+<resultMap id="BaseResultMap" type="com.jjkj.model.TFormInfo">
+    <id column="id" property="id"/>
+    <result column="name" property="name"/>
+    <result column="code" property="code"/>
+    <result column="description" property="description"/>
+    <result column="form_options" property="formOptions"/>
+    <result column="design_options" property="designOptions"/>
+    <result column="version" property="version"/>
+    <result column="enable" property="enable"/>
+    <result column="create_user_id" property="createUserId"/>
+    <result column="create_time" property="createTime"/>
+    <result column="update_user_id" property="updateUserId"/>
+    <result column="update_time" property="updateTime"/>
+</resultMap>
+
+<!-- 通用查询结果列 -->
+  <sql id="Base_Column_List">
+        form.id,
+        form.name,
+        form.code,
+        form.description,
+        form.form_options,
+        form.design_options,
+        form.version,
+        form.enable,
+        form.create_user_id,
+        form.create_time,
+        form.update_user_id,
+        form.update_time
+   </sql>
+   <sql id="common_ist">
+        select
+        <include refid="Base_Column_List"></include>
+        from t_form_info form
+        where 1=1
+        <foreach collection="param" item="item" index="column">
+            and form.${column} = #{item}
+        </foreach>
+    </sql>
+    <select id="searchFormInfoPage" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+    <select id="searchFormInfo" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+    <select id="searchFormInfoList" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+</mapper>

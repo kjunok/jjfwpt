@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.116.117.206:8848
+      config:
+        server-addr: 114.116.117.206:8848
+        shared-dataids: jjfwpt-sys-service.yml,mybatis.properties,jjfwpt-white-resource.yml
+login:
+  authTokenUrl: http://127.0.0.1:10000/oauth/token?client_id=android&client_secret=android
+
+
+
+
+
+
+
+

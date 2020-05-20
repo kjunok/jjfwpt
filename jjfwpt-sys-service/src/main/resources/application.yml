@@ -1,0 +1,10 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: jjfwpt-sys-service
+  elasticsearch:
+    rest:
+      uris: http://114.116.117.206:9200
+      password: WANGJUN1Q2W3E13
+      username: elastic

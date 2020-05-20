@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjkj.dao.mapper.TFormPlugInInfoMapper">
+
+<!-- 通用查询映射结果 -->
+<resultMap id="BaseResultMap" type="com.jjkj.model.TFormPlugInInfo">
+    <result column="id" property="id"/>
+    <result column="type_name" property="typeName"/>
+    <result column="type_code" property="typeCode"/>
+    <result column="plug_in" property="plugIn"/>
+    <result column="create_user_id" property="createUserId"/>
+    <result column="create_time" property="createTime"/>
+    <result column="update_user_id" property="updateUserId"/>
+    <result column="update_time" property="updateTime"/>
+</resultMap>
+
+<!-- 通用查询结果列 -->
+  <sql id="Base_Column_List">
+      TFormPlugInInfo.id,
+        TFormPlugInInfo.type_name,
+        TFormPlugInInfo.type_code,
+        TFormPlugInInfo.plug_in,
+        TFormPlugInInfo.create_user_id,
+        TFormPlugInInfo.create_time,
+        TFormPlugInInfo.update_user_id,
+        TFormPlugInInfo.update_time  </sql>
+    <sql id="common_ist">
+        select
+        <include refid="Base_Column_List"></include>
+        from t_form_plugin_info TFormPlugInInfo
+        where 1=1
+        <foreach collection="condition" item="item" index="column">
+            and TFormPlugInInfo.${column} = #{item}
+        </foreach>
+    </sql>
+    <select id="getTFormPlugInInfoPage" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+    <select id="getTFormPlugInInfo" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+    <select id="getTFormPlugInInfoList" resultMap="BaseResultMap" parameterType="java.util.Map">
+        <include refid="common_ist"></include>
+    </select>
+</mapper>

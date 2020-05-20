@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjkj.dao.mapper.TBserviceInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jjkj.model.TBserviceInfo">
+        <id column="id" property="id"/>
+        <result column="service_name" property="serviceName"/>
+        <result column="area" property="area"/>
+        <result column="form_items" property="formItems"/>
+        <result column="state" property="state"/>
+        <result column="service_desc" property="serviceDesc"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_user_id_text" property="createUserIdText"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_user_id_text" property="updateUserIdText"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+      bservice.id,
+        bservice.service_name,
+        bservice.area,
+        bservice.form_items,
+        bservice.state,
+        bservice.service_desc,
+        bservice.create_user_id,
+        bservice.create_time,
+        bservice.update_user_id,
+        bservice.update_time  </sql>
+    <sql id="common_ist">
+        select
+        create_user.user_name  as create_user_id_text,
+        update_user.user_name  as update_user_id_text,
+        <include refid="Base_Column_List"></include>
+        from t_bservice_info bservice
+        left join t_user_info create_user on create_user.id = bservice.create_user_id
+        left join t_user_info update_user on update_user.id = bservice.update_user_id
+        where 1=1
+        <foreach collection="condition" item="item" index="column">
+            and bservice.${column} = #{item}
+        </foreach>
+    </sql>
+    <select id="searchBserviceInfoPagesByParam" resultMap="BaseResultMap">
+        <include refid="common_ist"></include>
+        <foreach collection="orderMap" item="type" index="column" separator="," open="order by ">
+         bservice.${column} ${type}
+        </foreach>
+    </select>
+    <select id="getBserviceInfo" resultMap="BaseResultMap">
+        <include refid="common_ist"></include>
+    </select>
+    <select id="getBserviceInfoList" resultMap="BaseResultMap">
+        <include refid="common_ist"></include>
+    </select>
+</mapper>

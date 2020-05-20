@@ -1,0 +1,267 @@
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TUserInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TUserInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/UserInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/UserInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIUserService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/UserServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/UserGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Userinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/userinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TUserInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\UserController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java\com\jjkj\module\entity]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java\com\jjkj\module\controller]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/dao/mapper/xml/TUserInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/dao/mapper/TUserInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/dao/UserInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/dao/impl/UserInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/api/APIUserService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/service/UserServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/gridJson/UserGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/vuePage/Userinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/userinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java\com\jjkj\module\entity\TUserInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/jjfwpt-A-CodeGenerator/src/main/java\com\jjkj\module\controller\UserController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TUserInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TUserInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/UserInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/UserInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIUserService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/UserServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/UserGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Userinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/userinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TUserInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\UserController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TUserInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TUserInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/UserInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/UserInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIUserService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/UserServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/UserGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Userinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/userinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TUserInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\UserController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TUserInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TUserInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/UserInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/UserInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIUserService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/UserServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/UserGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Userinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/userinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TUserInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\UserController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormPluginInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormPluginInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/TFormPlugInInfoInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/TFormPlugInInfoInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APITFormPlugInInfoService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/TFormPlugInInfoServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/TFormPlugInInfoGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/TFormPlugInInfoinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/TFormPlugInInfoinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormPluginInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\TFormPlugInInfoController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TMenuInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TMenuInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/MenuInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/MenuInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIMenuService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/MenuServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/MenuGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Menuinfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/menuinfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TMenuInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\MenuController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+ERROR main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 无法创建文件，请检查配置信息！
+org.apache.velocity.exception.MethodInvocationException: Invocation of method 'substring' in  class java.lang.String threw exception java.lang.StringIndexOutOfBoundsException: String index out of range: -1 at templates/p_mapper.xml.vm[line 45, column 55]
+	at org.apache.velocity.runtime.parser.node.ASTMethod.handleInvocationException(ASTMethod.java:243)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:187)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.ASTBlock.render(ASTBlock.java:72)
+	at org.apache.velocity.runtime.parser.node.ASTIfStatement.render(ASTIfStatement.java:87)
+	at org.apache.velocity.runtime.parser.node.ASTBlock.render(ASTBlock.java:72)
+	at org.apache.velocity.runtime.directive.Foreach.render(Foreach.java:420)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine.writer(VelocityTemplateEngine.java:69)
+	at com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine.batchOutput(AbstractTemplateEngine.java:86)
+	at com.baomidou.mybatisplus.generator.AutoGenerator.execute(AutoGenerator.java:102)
+	at com.MybatisSqlGenerator.main(MybatisSqlGenerator.java:218)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1960)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	... 14 more
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+ERROR main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 无法创建文件，请检查配置信息！
+org.apache.velocity.exception.MethodInvocationException: Invocation of method 'substring' in  class java.lang.String threw exception java.lang.StringIndexOutOfBoundsException: String index out of range: -1 at templates/p_mapper.xml.vm[line 45, column 55]
+	at org.apache.velocity.runtime.parser.node.ASTMethod.handleInvocationException(ASTMethod.java:243)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:187)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.ASTBlock.render(ASTBlock.java:72)
+	at org.apache.velocity.runtime.parser.node.ASTIfStatement.render(ASTIfStatement.java:87)
+	at org.apache.velocity.runtime.parser.node.ASTBlock.render(ASTBlock.java:72)
+	at org.apache.velocity.runtime.directive.Foreach.render(Foreach.java:420)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine.writer(VelocityTemplateEngine.java:69)
+	at com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine.batchOutput(AbstractTemplateEngine.java:86)
+	at com.baomidou.mybatisplus.generator.AutoGenerator.execute(AutoGenerator.java:102)
+	at com.MybatisSqlGenerator.main(MybatisSqlGenerator.java:218)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1960)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	... 14 more
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 创建目录： [D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller]
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================准备生成文件...==========================
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.xml.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/xml/TFormInfoMapper.xml
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_mapper.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/mapper/TFormInfoMapper.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_dao.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/FormInfoDao.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_daoImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/impl/FormInfoDaoImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_APIService.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/api/APIFormService.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_serviceImpl.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/service/FormServiceImpl.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_gridCloums.json.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/gridJson/FormGridCloums.json
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_pageview.vue.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/vuePage/Forminfo.vue
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:templates/p_index_mapping.index.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java/com/jjkj/module/dao/elasticsearch/indexMapping/forminfo_index_mapping.index
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/entity.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\entity\TFormInfo.java
+DEBUG main com.baomidou.mybatisplus.generator.engine.AbstractTemplateEngine - 模板:/templates/controller.java.vm;  文件:D:\00-workspace\jjfwpt/code-generator/src/main/java\com\jjkj\module\controller\FormController.java
+DEBUG main com.baomidou.mybatisplus.generator.AutoGenerator - ==========================文件生成完成！！！==========================

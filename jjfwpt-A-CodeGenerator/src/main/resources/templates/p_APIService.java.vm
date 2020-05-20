@@ -1,0 +1,22 @@
+package com.want.module.api;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.want.module.dto.ResultDto;
+import com.jjkj.model.${entity};
+import com.want.utils.exception.FieldCheckException;
+
+import java.util.List;
+import java.util.Map;
+
+public interface API${cfg.UpModuleName}Service {
+
+    ResultDto<${entity}> find${cfg.UpModuleName}ByCondition(String token,Map condition);
+
+    ResultDto<List<${entity}>> find${cfg.UpModuleName}ListByCondition(String token,Map condition);
+
+    ResultDto<IPage<${entity}>> find${cfg.UpModuleName}PageByCondition(String token,Map condition);
+
+    ResultDto saveOrUpdate${cfg.UpModuleName}(String token,${entity} ${cfg.ModuleName}Info);
+
+    ResultDto del${cfg.UpModuleName}(String token,String[] ids);
+}

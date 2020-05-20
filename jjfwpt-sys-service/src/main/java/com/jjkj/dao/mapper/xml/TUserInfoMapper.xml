@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjkj.dao.mapper.TUserInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jjkj.model.TUserInfo">
+        <id column="id" property="id"/>
+        <result column="account" property="account"/>
+        <result column="password" property="password"/>
+        <result column="user_type" property="userType"/>
+        <result column="user_name" property="userName"/>
+        <result column="name_pinyin" property="namePinyin"/>
+        <result column="sex" property="sex"/>
+        <result column="avatar" property="avatar"/>
+        <result column="phone" property="phone"/>
+        <result column="email" property="email"/>
+        <result column="id_card" property="idCard"/>
+        <result column="wei_xin" property="weiXin"/>
+        <result column="wei_bo" property="weiBo"/>
+        <result column="qq" property="qq"/>
+        <result column="birth_day" property="birthDay"/>
+        <result column="address" property="address"/>
+        <result column="enable" property="enable"/>
+        <result column="remark" property="remark"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        user.id,
+        user.account,
+        user.password,
+        user.user_type,
+        user.user_name,
+        user.name_pinyin,
+        user.sex,
+        user.avatar,
+        user.phone,
+        user.email,
+        user.id_card,
+        user.wei_xin,
+        user.wei_bo,
+        user.qq,
+        user.birth_day,
+        user.address,
+        user.enable,
+        user.remark,
+        user.create_time,
+        user.update_time
+  </sql>
+    <select id="queryByAccount" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        <include refid="Base_Column_List"/>
+        from t_user_info user where user.account =#{account} or user.phone = #{account} or user.email = #{account}
+    </select>
+
+    <select id="searchRoleUserList" resultMap="BaseResultMap" parameterType="java.util.Map">
+        select
+        <include refid="Base_Column_List"/>
+        from t_user_info user where EXISTS (
+        select 1
+        from t_role_user_relation trur
+        where trur.role_id = #{condition.roleId}
+        and trur.user_id = user.id )
+    </select>
+
+    <select id="searchNotRoleUserList" resultMap="BaseResultMap" parameterType="java.util.Map">
+        select
+        <include refid="Base_Column_List"/>
+        from t_user_info user where not EXISTS (
+        select 1
+        from t_role_user_relation trur
+        where trur.role_id = #{condition.roleId}
+        and trur.user_id = user.id )
+    </select>
+</mapper>

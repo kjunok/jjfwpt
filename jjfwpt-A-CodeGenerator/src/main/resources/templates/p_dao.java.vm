@@ -1,0 +1,21 @@
+package com.jjkj.dao;
+
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.jjkj.model.${entity};
+
+import java.util.List;
+import java.util.Map;
+
+public interface ${cfg.UpModuleName}InfoDao extends IService<${entity}> {
+
+    ${entity} search${cfg.UpModuleName}ByParam(Map param);
+
+    IPage<${entity}> search${cfg.UpModuleName}PageByParam(Map param);
+
+    List<${entity}> search${cfg.UpModuleName}ListByParam(Map param);
+
+    Boolean saveOrUpdate${cfg.UpModuleName}(${entity} ${cfg.ModuleName}Info);
+
+    Boolean del${cfg.UpModuleName}(String[] ids);
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjkj.dao.mapper.TRoleInfoMapper">
+
+<!-- 通用查询映射结果 -->
+<resultMap id="BaseResultMap" type="com.jjkj.model.TRoleInfo">
+    <id column="id" property="id"/>
+    <result column="name" property="name"/>
+    <result column="code" property="code"/>
+    <result column="create_user_id" property="createUserId"/>
+    <result column="create_time" property="createTime"/>
+    <result column="update_user_id" property="updateUserId"/>
+    <result column="update_time" property="updateTime"/>
+    <result column="create_user_id_text" property="createUserIdText"/>
+    <result column="update_user_id_text" property="updateUserIdText"/>
+</resultMap>
+<select id="searchRolePagesByParam" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select
+    <include refid="Base_Column_List"></include>,
+    CONCAT(create_user.account,"(",create_user.user_name,")") as create_user_id_text,
+    CONCAT(update_user.account,"(",update_user.user_name,")") as update_user_id_text
+    from t_role_info role
+    left join t_user_info create_user on create_user.id = role.create_user_id
+    left join t_user_info update_user on update_user.id = role.update_user_id 
+</select>
+<!-- 角色通用查询结果列 -->
+  <sql id="Base_Column_List">
+    role.id, role.name, role.code, role.create_user_id, role.create_time, role.update_user_id, role.update_time, role.icon
+  </sql>
+<!-- 角色菜单通用查询结果列 -->
+<sql id="t_role_menu_relation_column">
+      role_id ,menu_id ,menu_type,select_type,create_time
+</sql>
+<!-- 角色菜单通用插入列 -->
+<sql id="t_role_menu_relation_insert_column">
+      role_id, menu_id,menu_type,select_type,create_time
+</sql>
+<!-- 角色用户通用查询结果列 -->
+<sql id="t_role_user_relation_column">
+     role_id,user_id,create_time
+</sql>
+<!-- myself:批量插入 -->
+    <insert id="insertRoleMenuBatch" parameterType="java.util.List" useGeneratedKeys="true">
+        insert into t_role_menu_relation (
+        <include refid="t_role_menu_relation_insert_column"/>
+        ) values
+        <foreach collection="roleMenuList" item="item" index="index" separator=",">
+            (#{item.role_id,jdbcType=VARCHAR},
+            #{item.menu_id,jdbcType=VARCHAR},
+            #{item.menu_type,jdbcType=VARCHAR},
+            #{item.select_type,jdbcType=VARCHAR},
+            #{item.create_time,jdbcType=TIMESTAMP})
+        </foreach>
+    </insert>
+    <insert id="insertRoleUserBatch" parameterType="java.util.List" useGeneratedKeys="true">
+        insert into t_role_user_relation (
+        <include refid="t_role_user_relation_column"/>
+        ) values
+        <foreach collection="roleUserList" item="item" index="index" separator=",">
+            (#{item.role_id,jdbcType=BIGINT},
+            #{item.user_id,jdbcType=BIGINT},
+            #{item.create_time,jdbcType=TIMESTAMP})
+        </foreach>
+    </insert>
+    <!-- 根据角色id删除角色菜单关系 -->
+    <delete id="deleteRoleMenuByRoleId">
+        delete from t_role_menu_relation where role_id in (0,
+        <foreach collection="roleIds" item="item" index="index" separator=",">
+            #{item}
+        </foreach>
+        )
+    </delete>
+
+    <!-- 根据角色id删除角色菜单关系 -->
+    <delete id="deleteRoleUserByRoleId">
+        delete from t_role_user_relation where  role_id in (0,
+        <foreach collection="roleIds" item="item" index="index" separator=",">
+            #{item}
+        </foreach>
+        )
+    </delete>
+
+    <delete id="delRoleUserByRoleIdAndUserIds">
+        delete from t_role_user_relation where role_id = #{id} and user_id in(0,
+            <foreach collection="userIds" item="item" index="index" separator=",">
+                #{item}
+            </foreach>
+        )
+    </delete>
+
+
+    <select id="getRoleMenusByRoleId" resultType="java.util.Map">
+        select
+        <include refid="t_role_menu_relation_column"/>
+        from t_role_menu_relation where role_id = #{roleId} and select_type='1'
+    </select>
+
+    <select id="getRoleUserIdByRoleId" resultType="java.lang.Long">
+        select user_id from t_role_user_relation where role_id = #{roleId}
+    </select>
+</mapper>

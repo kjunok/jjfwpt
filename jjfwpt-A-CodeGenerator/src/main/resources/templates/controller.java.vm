@@ -1,0 +1,88 @@
+package ${package.Controller};
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+#if(${restControllerStyle})
+import org.springframework.web.bind.annotation.RestController;
+#else
+import org.springframework.stereotype.Controller;
+#end
+#if(${superControllerClassPackage})
+import ${superControllerClassPackage};
+#end
+import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.want.utils.CodeConstant;
+import com.want.module.dto.ResultDto;
+import com.want.module.api.API${cfg.UpModuleName}Service;
+import com.want.module.dao.${cfg.UpModuleName}InfoDao;
+import com.jjkj.model.${entity};
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * $!{table.comment} ${cfg.ModuleName}前端控制器
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@RestController
+@RequestMapping("/${cfg.ModuleName}")
+#if(${kotlin})
+class ${table.controllerName}#if(${superControllerClass}) : ${superControllerClass}()#end
+
+#else
+#if(${superControllerClass})
+public class ${table.controllerName} extends ${superControllerClass} {
+#else
+public class ${table.controllerName} {
+#end
+
+    @Autowired
+    API${cfg.UpModuleName}Service ${cfg.ModuleName}Service;
+
+    @RequestMapping("/saveOrUpdate${cfg.UpModuleName}")
+    public ResultDto saveOrUpdate${cfg.UpModuleName}(@RequestHeader("token") String token,@RequestBody ${entity} ${cfg.ModuleName}Info){
+        return ${cfg.ModuleName}Service.saveOrUpdate${cfg.UpModuleName}(token,${cfg.ModuleName}Info);
+    }
+
+    @RequestMapping("/search${cfg.UpModuleName}")
+    public ResultDto search${cfg.UpModuleName}(@RequestHeader("token") String token,@RequestBody Map condition){
+        return ${cfg.ModuleName}Service.find${cfg.UpModuleName}ByCondition(token,condition);
+    }
+
+    @RequestMapping("/search${cfg.UpModuleName}List")
+    public ResultDto search${cfg.UpModuleName}List(@RequestHeader("token") String token,@RequestBody Map condition){
+        return ${cfg.ModuleName}Service.find${cfg.UpModuleName}PageByCondition(token,condition);
+    }
+
+    @RequestMapping("/get${cfg.UpModuleName}")
+    public ResultDto get${cfg.UpModuleName}(@RequestHeader("token") String token,@RequestBody Map condition){
+        return ${cfg.ModuleName}Service.find${cfg.UpModuleName}ListByCondition(token,condition);
+    }
+
+    @RequestMapping("/del${cfg.UpModuleName}")
+    public ResultDto del${cfg.UpModuleName}(@RequestHeader("token") String token,@RequestBody Map condition){
+        String[]ids=null;
+        if(condition.containsKey("ids")){
+            ids=(condition.get("ids")+"").split(",");
+        }
+        return ${cfg.ModuleName}Service.del${cfg.UpModuleName}(token,ids);
+    }
+
+    @RequestMapping("/checkUniqueField")
+    public ResultDto checkField(@RequestHeader("token") String token,@RequestBody Map condition){
+        ResultDto requestDto=${cfg.ModuleName}Service.find${cfg.UpModuleName}ByCondition(token,condition);
+        if(requestDto.isNull()){
+            return ResultDto.ok();
+        }else{
+            return ResultDto.failure(CodeConstant.ERROR.getCode(),CodeConstant.ERROR.getMessage("已经存在!"));
+        }
+    }
+
+}
+#end
