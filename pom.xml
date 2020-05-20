@@ -16,7 +16,6 @@
         <module>jjfwpt-biz-service</module>
         <module>jjfwpt-util</module>
         <module>jjfwpt-auth-gateway</module>
-        <module>jjfwpt-A-CodeGenerator</module>
     </modules>
     <dependencyManagement>
         <dependencies>

@@ -12,11 +12,11 @@
         <module name="jjfwpt-biz-facade" />
         <module name="jjfwpt-util" />
         <module name="jjfwpt-sys-service" />
-        <module name="jjfwpt-A-CodeGenerator" />
         <module name="jjfwpt-auth-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jjfwpt-A-CodeGenerator" target="1.8" />
       <module name="jjfwpt-code-generator" target="1.8" />
       <module name="jjfwpt-eureka-service" target="1.8" />
       <module name="jjfwpt-gateway" target="1.8" />

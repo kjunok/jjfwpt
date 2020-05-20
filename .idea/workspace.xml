@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95feb18d-c26c-41c8-b338-b045b26a8c4b" name="Default Changelist" comment="第一次提交">
+    <list default="true" id="95feb18d-c26c-41c8-b338-b045b26a8c4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,13 +67,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="104">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -175,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIMenuService.java" />
         <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/ReqUtil.js" />
         <option value="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/HttpUtil.java" />
@@ -221,11 +232,12 @@
         <option value="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/EmailUtil.java" />
         <option value="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/email/EmailSender.java" />
         <option value="$PROJECT_DIR$/jjfwpt-util/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jjfwpt-sys-service/pom.xml" />
         <option value="$PROJECT_DIR$/jjfwpt-auth-gateway/pom.xml" />
         <option value="D:/02-worksoftware/nginx-1.15.12/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue" />
+        <option value="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -253,24 +265,6 @@
           <item name="jjfwpt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jjfwpt-auth-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jjfwpt-auth-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jjfwpt-sys-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jjfwpt-sys-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -289,8 +283,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="284" />
+    <option name="x" value="212" />
+    <option name="y" value="378" />
     <option name="width" value="2374" />
     <option name="height" value="1066" />
   </component>
@@ -301,6 +295,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,11 +303,15 @@
               <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
               <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
+              <item name="jjfwpt-A-CodeGenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,6 +556,7 @@
       <workItem from="1589855084862" duration="1784000" />
       <workItem from="1589895562738" duration="14600000" />
       <workItem from="1589942340103" duration="2225000" />
+      <workItem from="1589951774682" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1589948968079</created>
@@ -572,16 +572,24 @@
       <option name="project" value="LOCAL" />
       <updated>1589949168969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="删除文件">
+      <created>1589951567160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589951567160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1474238000" />
+    <option name="totallyTimeSpent" value="1475801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.22835584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.2299444" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.33375958" side_tool="true" weight="0.22359015" />
@@ -598,12 +606,12 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8804607" weight="0.16452992" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="10" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.11953932" side_tool="true" weight="0.2361111" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.41239315" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30982906" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.41239315" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49960285" visible="true" weight="0.41239315" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.54813045" weight="0.45405984" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32905984" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" sideWeight="0.49960285" weight="0.32905984" />
       <window_info anchor="bottom" id="TypeScript" order="17" show_stripe_button="false" weight="0.32905984" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.16025642" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -727,7 +735,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="删除文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,13 +799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/MenuInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/MenuInfoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1069,11 +1071,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/velocity.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/velocity.log" />
     <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/jjkj-sys-service-pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.jjfwpt-sys-service.xml" />
@@ -1168,20 +1166,28 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
+        <state relative-caret-position="192">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="189">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
