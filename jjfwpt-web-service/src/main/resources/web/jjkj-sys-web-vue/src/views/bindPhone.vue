@@ -7,7 +7,7 @@
             <img src="../assets/img/logo.png" style="width: 30px; height: 30px;"/>
           </Col>
           <Col span="4">
-            <span style="font-size: 20px;color: white;display: block;line-height: 30px;margin-left: 10px;">关联账号</span>
+            <span style="font-size: 20px;color: white;display: block;line-height: 30px;margin-left: 10px;">关联账号1</span>
           </Col>
         </Row>
       </div>
