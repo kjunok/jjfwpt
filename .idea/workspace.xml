@@ -1,710 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/JJKJAuthorizationServerConfig.java" line="131" />
-    <bookmark url="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/layout/MainLayout.vue" line="32" />
-    <bookmark url="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/formMaker/formMakerUtils.js" line="736" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="95feb18d-c26c-41c8-b338-b045b26a8c4b" name="Default Changelist" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e65e88ea-cab8-4be6-9841-7c4deb1995af.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firestorm.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/java/com/MybatisSqlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/controller.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/entity.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/entity.kt.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_APIService.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_dao.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_daoImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_gridCloums.json.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_index_mapping.index.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_mapper.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_mapper.xml.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_pageview.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_pageview1.vue.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/p_serviceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/service.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-A-CodeGenerator/src/main/resources/templates/serviceImpl.java.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/BootStrap_AUTH_GETEWAY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/JJKJAuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/JJKJResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/JJKJSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/JJKJSecurityWhitelistHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/controller/JJKJAuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/exception/JJKJAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/exception/JJKJAuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/exception/JJKJAuthExceptionEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/exception/JJKJAuthExceptionSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/filter/AccessFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/service/JJKJUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/service/impl/JJKJUserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/token/JJKJAbstractTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/token/JJKJPasswordTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/token/JJKJPhoneSmsTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/token/JJKJRefreshTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/java/com/jjkj/auth/token/JJKJTokenConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/mytest.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/bg/bg6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/css/app.686be8f0067b5d7659b868cad8dbfb16.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/css/app.686be8f0067b5d7659b868cad8dbfb16.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/fonts/ionicons.143146f.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/fonts/ionicons.99ac330.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/fonts/ionicons.d535a25.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/av.39dfe50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/ionicons.a2c4a26.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/login.0428b9c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/skin-kiwi.f9e3cce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/skin-lights.c6a459a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/img/skin-sunny.65d1722.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/0.393ceca2c0e1c95151ce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/0.393ceca2c0e1c95151ce.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/1.28c8fb0f6eaf84a573ce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/1.28c8fb0f6eaf84a573ce.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/10.3a1e3458906eb75e5acc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/10.3a1e3458906eb75e5acc.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/11.3505b22390be10f367a1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/11.3505b22390be10f367a1.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/12.f02e262fc2d6c75fd709.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/12.f02e262fc2d6c75fd709.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/13.218e0eeec2a7025d6a9e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/13.218e0eeec2a7025d6a9e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/14.4f843aca04216994cdd4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/14.4f843aca04216994cdd4.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/2.e7cb9117c6794df782ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/2.e7cb9117c6794df782ca.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/3.34f358575e97c40c6c70.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/3.34f358575e97c40c6c70.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/4.30db1a85d43602d0d2c2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/4.30db1a85d43602d0d2c2.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/5.b6f38d74d8c02f0b7730.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/5.b6f38d74d8c02f0b7730.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/6.d60d76ff30dc668bef37.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/6.d60d76ff30dc668bef37.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/7.cbc3693c807036a0cedf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/7.cbc3693c807036a0cedf.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/8.d40b39914b722acd321b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/8.d40b39914b722acd321b.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/9.38812d52d2a5587cfeec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/9.38812d52d2a5587cfeec.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/app.baa95a7e52444b1f5d03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/app.baa95a7e52444b1f5d03.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/manifest.c3e485e3e76add4209d4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/manifest.c3e485e3e76add4209d4.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/vendor.5bf7c0b647bcb2ddcffb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/main/resources/static/dist/static/js/vendor.5bf7c0b647bcb2ddcffb.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-auth-gateway/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-service/src/main/java/com/jjkj/BootStrap_BIZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-biz-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIBserviceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIFormService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIOpenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/MessageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TBserviceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TCityInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TDictInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TFormInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TFormPlugInInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TMenuInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TModuleResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TRoleInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TRoleModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TSystemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/model/TUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/BootStrap_SYS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/BserviceInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/FileDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/FormInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/FormPlugInInfoInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/MenuInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/RoleInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/UserInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/elasticsearch/TUserInfoEsSearchDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/BserviceInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/FileDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/FormInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/FormPlugInInfoInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/MenuInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/RoleInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/impl/UserInfoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TBserviceInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TCityInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TDictInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TFormInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TFormPlugInInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TMenuInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TRoleInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/TUserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TBserviceInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TCityInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TDictInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TFormInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TFormPlugInInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TMenuInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TRoleInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/mapper/xml/TUserInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/BserviceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/FormServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/OpenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/resources/Test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-sys-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/annotation/JJKJAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/annotation/JJKJParamDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/base/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/base/AdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/base/provider/BaseProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/base/provider/BaseProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/base/provider/Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/ConfigInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/FastDfsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/RedisCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/properties/FastDfsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/properties/MybatisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/config/properties/RedisProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/DataParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/FtpException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/IllegalParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/InstanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/LoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/UnauthorizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/exception/ValidateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/i18n/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/i18n/messages_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/model/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/model/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/model/TaskFireLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/scanner/ClasspathPackageScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/DateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/cache/CacheKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/cache/CacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/ApplicationContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/OrderedProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/PropertyPlaceholder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/RequestBodyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/context/StringEscapeEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/dbcp/ChooseDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/dbcp/HandleDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/dbcp/provider/DataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/email/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/email/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/excel/Excel2003Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/excel/Excel2007Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/excel/RowReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/excel/WriteDone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/fastdfs/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/fastdfs/FileModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/ftp/FileProgressMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/ftp/FtpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/file/ftp/SftpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/generator/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/generator/SystemClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/http/HttpCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/http/ReturnValueHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/http/ReturnValueHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/http/SessionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/login/LoginHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/mq/QueueSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/mq/TopicSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/mq/listener/SendEmailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/AliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/AliPayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/WxPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/WxPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/vo/PayResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/pay/vo/RefundResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/push/BaseJPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/redis/BaseRedisDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/redis/RedisHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/redis/RedisTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/redisson/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/BASE64Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/BouncyCastleProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/CharacterDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/Hex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/SecurityCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/coder/DESCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/coder/HmacCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/coder/MDCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/coder/RSACoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/coder/SHACoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/https/HTTPSCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/security/https/HTTPSPKCSCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/swagger/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/validate/RegexType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/validate/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/validate/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/AESUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/AlipayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/CacheUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/DataUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ElasticUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/EmailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ExcelReaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ExcelWriterJxlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ExcelWriterPoiUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/GaodeMapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/IDCardUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/InstanceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/LocationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/MathUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/MybatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/NativeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/PinyinUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/QrcodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/RMBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/SearchUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/SerializeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/SessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/ThreadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/TypeParseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/UploadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/WeChatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/WebUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/util/XmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/jjfwpt-web-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/animation/ease.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/animation/fade.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/animation/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/animation/move.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/animation/slide.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/article.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/_ionicons-font.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/_ionicons-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/_ionicons-variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/iconfont/ionicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/layout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/common/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/affix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/alert.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/back-top.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/badge.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/button.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/card.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/cascader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/checkbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/circle.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/collapse.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/date-picker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/dropdown.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/form.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/input-number.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/input.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/loading-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/menu.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/message.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/modal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/notice.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/page.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/poptip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/progress.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/radio.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/rate.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/select-dropdown.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/select.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/slider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/spin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/steps.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/switch.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/tabs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/tag.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/time-picker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/timeline.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/transfer.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/tree.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/components/upload.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/copyright.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/custom.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/dark/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/dark/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/dark/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/dark/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/dark/iview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/def/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/def/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/def/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/def/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/def/iview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/light/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/light/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/light/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/light/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/dist/light/iview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/breadcrumb.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/button.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/caret.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/checkbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/content.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/input.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/layout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/loading.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/mask.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/select.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/my-theme/mixins/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/codeTheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/av.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/av.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/cover-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/loadinfo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/login-qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/login-weibo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/login-weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/select-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-chrome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-city.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-cloth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-greenish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-kiwi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-lights.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-night.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-ocean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-sunny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-sunset.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-tectile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-violate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/skin-yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/sort.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/img/vux_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/API.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/DICT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/config/Config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/modal/TBserviceInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/modal/TForminfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/modal/TMenuInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/modal/TRoleInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/modal/TUserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/CommonUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/DrawerUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/FormUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/JsonFormatUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/LogUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/MsgUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/ReqUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/RulesUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/TransformUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/ChildTable.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/IconSelect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/RoleAddUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/bserviceinfo/BserviceForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/common/AutoIcon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/common/Explain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/design/FormDesign.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/formMaker/FormMaker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/formMaker/formMakerUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/formMaker/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/forminfo/FormForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/layout/MainHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/layout/MainLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/layout/NavMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/menuinfo/MenuForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/previewDesignForm/PreviewWebForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/roleinfo/RoleForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/roleinfo/RoleMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/roleinfo/RoleUser.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/components/userinfo/UserForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/router/routerUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/error/401.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/error/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/error/504.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/bserviceInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/cityInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/dictInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/elastic.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/formInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/formPlugin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/indexHome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/menuInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/monitor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/nacos.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/roleInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/index/userInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/loginSucess.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/myResume.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/userInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-chrome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-city.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-cloth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-greenish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-kiwi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-lights.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-night.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-ocean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-sunny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-sunset.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-tectile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-violate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/static/bg/skin-yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/config/test.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/avatars/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/assets/scripts/themeSettings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/components/LeftMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/components/ThemeSettings.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/pages/MainPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/e2e/runner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/e2e/specs/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/unit/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/unit/jest.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/unit/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/sys/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/config/proxyConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/FormList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/ItemIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/Preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/Render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/components/Uploads/upload.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/config/area.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/config/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Cascader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/CheckBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/DatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/P.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Radio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/control/Uploads.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/custom_form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/preview.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/components/render.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.14.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.17.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/vue-formbuilder/static/label.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jjfwpt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -769,41 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jjfwpt-auth-gateway/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="43" column="12" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3900">
-              <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jjfwpt-util/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9672">
-              <caret line="372" column="21" selection-start-line="372" selection-start-column="21" selection-end-line="372" selection-end-column="21" />
+            <state relative-caret-position="546">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -903,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/index.html" />
         <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/jjfwpt-sys-facade/src/main/java/com/jjkj/api/APIMenuService.java" />
         <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/assets/script/utils/ReqUtil.js" />
@@ -954,6 +220,7 @@
         <option value="$PROJECT_DIR$/jjfwpt-sys-service/pom.xml" />
         <option value="$PROJECT_DIR$/jjfwpt-auth-gateway/pom.xml" />
         <option value="D:/02-worksoftware/nginx-1.15.12/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue" />
       </list>
     </option>
   </component>
@@ -1028,54 +295,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jjfwpt-web-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jjfwpt-web-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jjfwpt-web-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jjfwpt-web-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jjfwpt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jjfwpt" type="462c0819:PsiDirectoryNode" />
-              <item name="jjfwpt-web-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1097,7 +319,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
     <property name="ts.external.directory.path" value="D:\02-worksoftware\IntelliJ IDEA 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -1319,18 +541,32 @@
       <workItem from="1589771260776" duration="9533000" />
       <workItem from="1589855084862" duration="1784000" />
       <workItem from="1589895562738" duration="14600000" />
-      <workItem from="1589942340103" duration="1503000" />
+      <workItem from="1589942340103" duration="2225000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1589948968079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589948968080</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1589949168969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589949168969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1473209000" />
+    <option name="totallyTimeSpent" value="1473931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.22517872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6662404" visible="true" weight="0.22676727" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.33375958" side_tool="true" weight="0.22359015" />
@@ -1338,7 +574,7 @@
       <window_info id="Web" order="5" sideWeight="0.10321101" side_tool="true" weight="0.20373312" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4017094" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992057" visible="true" weight="0.14102565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992057" weight="0.4198718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1923077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1350,7 +586,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.11953932" side_tool="true" weight="0.2361111" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30982906" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.41239315" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.54813045" weight="0.45405984" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32905984" />
       <window_info anchor="bottom" id="TypeScript" order="17" show_stripe_button="false" weight="0.32905984" />
@@ -1408,6 +644,57 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
@@ -1474,13 +761,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/service/impl/MenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/src/main/java/com/jjkj/dao/MenuInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -1765,18 +1045,16 @@
         <state relative-caret-position="-780" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/target/maven-archiver/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/jjkj-sys-service-pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.jjfwpt-sys-service.xml" />
     <entry file="file://$PROJECT_DIR$/jjfwpt-sys-facade/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="51" column="12" selection-start-line="41" selection-start-column="4" selection-end-line="51" selection-end-column="12" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jjfwpt-util/src/main/java/com/jjkj/support/mq/listener/SendEmailListener.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1830,30 +1108,6 @@
     <entry file="file://$PROJECT_DIR$/jjfwpt-auth-gateway/dependency-reduced-pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="43" column="12" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jjfwpt-util/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9672">
-          <caret line="372" column="21" selection-start-line="372" selection-start-column="21" selection-end-line="372" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/02-worksoftware/nginx-1.15.12/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1862,10 +1116,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jjfwpt-auth-gateway/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="170">
           <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jjfwpt-sys-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="43" column="12" selection-start-line="25" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jjfwpt-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="372" column="21" selection-start-line="372" selection-start-column="21" selection-end-line="372" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jjfwpt-web-service/src/main/resources/web/jjkj-sys-web-vue/src/views/bindPhone.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
